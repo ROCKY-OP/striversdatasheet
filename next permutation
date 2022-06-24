@@ -1,0 +1,10 @@
+ void nextPermutation(vector<int>& nums) {
+        int n=nums.size();
+        int* j=nums.data();
+        int* k=&(*(nums.end()) );
+        next_permutation(j,k);
+        for(int i=0;i<n;i++){
+            cout<<nums[i]<<" ";
+        }
+        
+    }
