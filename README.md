@@ -1,2 +1,2 @@
-# strivers
+# strivers dsa sheet
 codes 
